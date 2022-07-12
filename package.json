@@ -17,11 +17,30 @@
     "url": "https://github.com/iwaken71/babylonjs-vue-webpack/issues"
   },
   "homepage": "https://github.com/iwaken71/babylonjs-vue-webpack#readme",
-  "devDependencies": {
-    "webpack": "^5.73.0",
-    "webpack-cli": "^4.10.0"
+    "devDependencies": {
+    "cpx": "^1.5.0",
+    "css-loader": "^6.2.0",
+    "empty-folder": "^2.0.4",
+    "style-loader": "^3.2.1",
+    "stylus": "^0.54.8",
+    "vue-loader": "^15.9.7",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^5.47.1",
+    "webpack-cli": "^4.7.2"
   },
   "dependencies": {
-    "vue": "^3.2.37"
+    "@babylonjs/core": "^5.14.1",
+    "@babylonjs/inspector": "^5.14.1",
+    "@babylonjs/loaders": "^5.14.1",
+    "babylonjs": "^5.14.1",
+    "babylonjs-gui": "^5.14.1",
+    "firebase": "^8.9.0",
+    "jquery": "^3.6.0",
+    "moment": "^2.29.1",
+    "vue": "^2.6.14",
+    "vue-js-modal": "^2.0.1",
+    "vue-router": "^3.5.2",
+    "vue2-datepicker": "^3.10.1",
+    "vuex": "^3.6.2"
   }
 }

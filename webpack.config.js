@@ -1,3 +1,8 @@
 module.exports = {
-    mode: 'development'
-}
+  mode: 'development',
+  resolve: {
+    alias: {
+      vue$: 'vue/dist/vue.esm.js', 
+    },
+  },
+};
