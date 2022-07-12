@@ -4,12 +4,16 @@
 
 <script>
 export default {
-  data () {
+  data() {
     return {
-      msg: 'Hello Vue Component'
-    }
-  }
-}
+      msg: 'Hello Vue Component',
+    };
+  },
+  created() {
+    const webpack_babel = 'Babel check';
+    console.log(webpack_babel);
+  },
+};
 </script>
 
 <style scoped>
