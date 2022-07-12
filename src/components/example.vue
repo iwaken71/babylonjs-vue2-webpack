@@ -11,3 +11,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.example{
+  font-weight: bold;
+}
+</style>
