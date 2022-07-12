@@ -3,7 +3,9 @@
 </template>
 
 <script>
+import BabylonScene from './BabylonScene.vue';
 export default {
+  components: { BabylonScene },
   data() {
     return {
       msg: 'Hello Vue Component',
