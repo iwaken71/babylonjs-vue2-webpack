@@ -10,9 +10,9 @@ import { createScene } from "../scenes/MyFirstScene";
 export default {
   name: "BabylonScene",
 
-  mounted() {
+  async mounted() {
     const canvas = document.getElementById("renderCanvas");
-    createScene(canvas);
+    await createScene(canvas);
   },
 };
 </script>

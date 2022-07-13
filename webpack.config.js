@@ -1,4 +1,6 @@
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
+const path = require('path');
+const CopyPlugin = require("copy-webpack-plugin");
 module.exports = {
   mode: 'development',
   module: {
@@ -26,8 +28,14 @@ module.exports = {
   plugins: [
     // make sure to include the plugin!
     new VueLoaderPlugin(),
+    new CopyPlugin({
+      patterns: [
+          { from: "public", to: "." },
+      ],
+  }),
   ],
   resolve: {
+    extensions:[".js",".vue"],
     alias: {
       vue$: 'vue/dist/vue.esm.js',
     },
